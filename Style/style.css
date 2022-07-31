@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: cadetblue;
+    background-color: red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,12 +85,12 @@ a{
 
 .product-detail{
     width: 70%;
-    padding-right: 3%;
+    padding-right: 300px;
 }
 
 .product-info{
     width: 30%;
-    padding-left: 5%;
+    padding-left: 0px;
 }
 
 
