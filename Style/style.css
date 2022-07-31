@@ -2,6 +2,7 @@
     background-color: cadetblue;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 20px;
     position: fixed;
     z-index: 1;
@@ -49,6 +50,7 @@ a{
 
 .product-content{
     margin-left: 10px;
+    font-size: 5px;
 }
 
 .product-name{
