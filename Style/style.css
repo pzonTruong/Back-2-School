@@ -85,14 +85,14 @@ a{
 
 .product-detail{
     width: 70%;
-    padding-right: 300px;
+    padding-left: 200px;
 }
 
 .product-info{
     width: 30%;
-    padding-left: 0px;
+    padding-right:200px;
 }
-
+    
 
 .button{
     width: 150px;
