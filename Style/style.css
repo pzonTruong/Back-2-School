@@ -119,3 +119,14 @@ a{
     left: 0;
 }
 
+.box{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 8px solid lime;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
