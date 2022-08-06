@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -106,15 +106,16 @@ a{
 }
 
 .nav-bar-login{
-    margin-top: 90px ;
+    margin-top: 50px ;
     justify-content: end;
     align-items: flex-end;
-    background-color: rgb(109, 102, 102);
+    background-color: white;
     display: flex;
     text-decoration: none;
     position: fixed;
     z-index: 1;
     width:100%;
+    font-size: 5px;
     top:0;
     left: 0;
 }
