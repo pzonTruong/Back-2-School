@@ -74,6 +74,7 @@ a{
 
 .footer{
     background-color: rgba(109, 221, 18, 0.897);
+    margin-top: 50px;
 }
 
 .product-div:hover .product-price{
