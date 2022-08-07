@@ -69,6 +69,7 @@ a{
 
 .foot-item{
     width:100%;
+    padding-left: 20px;
 }
 
 .footer{
@@ -131,3 +132,12 @@ a{
     margin-right: 500px;
 }
 
+.danh_muc{
+    margin-top: 50px;
+    background-color: white;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}

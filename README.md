@@ -24,10 +24,10 @@
 
 # - Body:
 #	+ Navigation bar: 
-		* 1 div dành cho phần đăng nhập, đăng ký tài khoản.
-		* 1 div dành cho icon, các loại đồ dùng học tập, help, blog, tin tức, ...
+		* 1 div dành cho phần đăng nhập, đăng ký tài khoản. <!>
+		* 1 div dành cho icon, các loại đồ dùng học tập, help, blog, tin tức, ... <!>
 #	+ Main:
-		- Gồm:  + Quảng cáo.
+		- Gồm:  + Quảng cáo. <!>
 			+ Phần Best seller.
 				- Thêm phần dẫn tới các mục đồ.
 				- Liệt kê các mặt hàng (sách, bút, vở,...).
