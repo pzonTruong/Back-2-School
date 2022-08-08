@@ -142,3 +142,17 @@ a{
     display: flex;
     font-size: 20px;
 }
+
+.about{
+    margin-top: 100px;
+}
+
+.para{
+    font-size: 30px;
+}
+
+.pic{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
