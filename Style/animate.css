@@ -1,0 +1,12 @@
+.wow{
+    background: #0082bb;
+    color: #FFF;
+    width: 250px;
+    height: 250px;
+    border-radius:100%;
+    line-height: 250px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
