@@ -9,6 +9,7 @@
 # -- Các  FOLDER CHỨA FILE:
 	+ Image: chứa các ảnh (icon của web, bar, sản phẩm, etc...).
 	+ Style: chứa file css.
+	+ Js: chứa file js. (hiện animation, login, sign up) |Working on!|
 	+ Index.html
 	+ Web:
 		- Login and sign up: (firebase & js)
