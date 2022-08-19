@@ -15,7 +15,7 @@
 		- Chia sản phẩm sang thành các loại. (các sản phẩm sẽ có phần comment).
 		- Phần tin tức
 
-# -- Có thể sử dụng animation?
+# -- Dùng animation qua wow.js
 
 # - Head:
 	+ Title: Sunrise's Bookstore.
