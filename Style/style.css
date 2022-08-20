@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: white;
+    background-color: rgb(255, 187, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: solid;
     font-size: 30px;
     font-weight:bold;
 }
@@ -117,7 +117,7 @@ a{
     margin-top: 50px ;
     justify-content: end;
     align-items: flex-end;
-    background-color: white;
+    background-color: rgb(255, 187, 0);
     display: flex;
     text-decoration: none;
     position: fixed;
@@ -130,14 +130,18 @@ a{
 
 .box{
     justify-content: center;
-    text-align: center;
+    text-align: left;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
     border: 8px solid lime;
     margin-left: 500px;
     margin-right: 500px;
 }
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
 
 .danh_muc{
     margin-top: 50px;
