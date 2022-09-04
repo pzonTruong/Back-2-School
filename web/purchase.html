@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="shortcut icon" href="/Back-2-School/Image/web_image/logo_tab.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Back-2-School/Style/style.css">
+    <link rel="stylesheet" href="/Back-2-School/Style/purchase.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <img style="justify-content: flex-start;" width="90" src="/Back-2-School/Image/web_image/logo.png" alt="logo web">
+        <a href="/Back-2-School/index.html">Home</a>
+        <a href="/Back-2-School/bar-web/news.html">News</a>
+        <a href="/Back-2-School/bar-web/about.html">About</a>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <h1 style="color: orange; text-align: center;">THANH TOÁN</h1>
+            <form>
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i>Họ và tên</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i>Địa chỉ</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                </div>
+      
+                <div class="col-50">
+                  <h3>Hình thức thanh toán</h3>
+                  <label for="fname">Chọn hình thức thanh toán</label>
+                  <div>
+                    <select name="Payment" id="Payment" style="width:100px; height:30px; font-size: 15px; background-color: rgb(170, 168, 168);">
+                      <option value="Visa">Visa</option>
+                      <option value="Debit">Debit</option>
+                    </select>
+                  </div>
+                  
+                  <br>
+                  <br>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <button id="purchase_btn" type="submit" class="btn">Continue to checkout</button>
+            </form>
+          </div>
+        </div>
+      
+        
+      </div>
+
+    <script src="/Back-2-School/js/complete_purchase.js"></script>
+</body>
+</html>
